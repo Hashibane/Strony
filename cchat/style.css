@@ -1,0 +1,68 @@
+body {
+   padding: 0;
+   margin: 0;
+}
+#container
+{
+	background-image: url("cos1.jpg");
+	height: 100vh;
+	width: 100%;
+}
+#logan
+{
+	position: relative;
+	top: 45%;
+	background-color: #e6eeff;
+	width: 40vw;
+	height: 30vw;
+	margin-left: auto;
+	margin-right:  auto;
+	padding: 5px;
+	border-style: ridge;
+	border-width: 10px;
+	border-color: #004080;
+	opacity: 0.7;
+}
+#logo
+{
+	margin-left: auto;
+	margin-right: auto;
+	opacity: 1 !important; 
+	color: red !important;
+	font-family: 'Lato', black;
+	text-align: center;
+}
+#log
+{
+	position: relative;
+	top: 5%;
+	font-family: 'Lato', black;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: 175%;
+}
+
+input[type=text]
+{
+    line-height: 175%;
+}
+#zalozkonto
+{
+	margin-top: 25px;
+	font-family: 'Lato', black;
+	text-align: center;
+	width: 100%;
+	color: black;
+
+}
+a
+{
+	text-decoration: none;
+}
+#gornypasek
+{
+	width: 100%;
+	height: 100px;
+	background-color: black;
+}
