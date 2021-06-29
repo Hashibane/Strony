@@ -1,0 +1,53 @@
+#aaa
+{
+	position: absolute;
+	border-right: 7px groove #BABABA;
+	font-family: "Lato", sans-serif;
+	width: 18vw;
+	margin-top: 0px;
+	height: 90vh;
+	background-color: #191817;
+	margin-left: -18vw;
+	transition: 0.4s;
+}
+#aaa > ul
+{
+	padding: 0;
+	margin: 0;
+}
+a
+{
+	text-decoration: none;
+	color: white;
+}
+#aaa > ul > li
+{
+	text-align: center;
+	border-bottom: 2px dashed #FFFFFF;
+	padding-top: 2.6vh;
+	padding-bottom: 2.6vh;
+	list-style: none;
+	font-size: 25px;
+	color: white;
+}
+#aaa > ul > li:hover
+{
+	font-size: 27px;
+	background-color: #3b3835;
+	color: grey;
+}
+#main
+{
+	transition: 0.4s;
+	float: right;
+	width: 100vw;
+	height: 90vh;
+	background-color: #131214;;
+}
+.contfont
+{
+	vertical-align: middle;
+	text-align: center;
+	font-size: 1.5vw;
+	font-family: Lato, sans-serif;
+}

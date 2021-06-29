@@ -1,0 +1,160 @@
+body
+{
+	padding: 0px;
+	margin: 0px;
+}
+#container
+{
+	width: 30%;
+	height: 30vh;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	background-color: white;
+	border: 1px solid #e60000;
+	border-radius: 2px;
+	box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .4), 0 0 0 5px #cc0000;
+	padding: 0px;
+}
+#logowanie
+{
+	padding: 0px;
+	height: 80%;
+	width: 100%;
+	background-color: white;
+	top: 50%;
+	left: 50%;
+
+}
+
+form 
+{
+    margin: 0 auto;
+    margin-top: 1vh;
+}
+label 
+{
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+    color: black;
+    display: inline-block;
+    margin-left: 18px;
+    padding-top: 10px;
+    font-size: 18px;
+}
+input[type=text],
+input[type=password] 
+{
+    color: #777;
+    padding-left: 10px;
+    margin: 10px;
+    margin-top: 12px;
+    margin-left: 1vw;
+    width: 27vw;
+    height: 4vh;
+	border: 1px solid #c7d0d2;
+    border-radius: 2px;
+    box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .4), 0 0 0 5px #f5f7f8;
+}
+
+input[type=submit]
+{
+	float: right;
+	margin: 2vw;
+	width: 80px;
+    height: 30px;
+	
+	font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #acd6ef; /*IE fallback*/
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#cc0000), to(#ff1a1a));
+    background-image: -moz-linear-gradient(top left 90deg, #acd6ef 0%, #6ec2e8 100%);
+    background-image: linear-gradient(top left 90deg, #acd6ef 0%, #6ec2e8 100%);
+    border-radius: 30px;
+    border: 1px solid #66add6;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .3), inset 0 1px 0 rgba(255, 255, 255, .5);
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ff4d4d), to(#ff8080));
+    background-image: -moz-linear-gradient(top left 90deg, #b6e2ff 0%, #6ec2e8 100%);
+    background-image: linear-gradient(top left 90deg, #b6e2ff 0%, #6ec2e8 100%);
+}
+input[type=submit]:active {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ff8080), to(#ff4d4d));
+    background-image: -moz-linear-gradient(top left 90deg, #6ec2e8 0%, #b6e2ff 100%);
+    background-image: linear-gradient(top left 90deg, #6ec2e8 0%, #b6e2ff 100%);
+}
+
+#zalozkonto
+{
+		text-decoration: none;
+		margin-top: auto;
+		margin-left: 2vw;
+		font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+#zalozkonto:link 
+{
+ 
+  color: red;
+  font-size: 18px;
+  color: #68a1fc;
+}
+#zalozkonto:hover 
+{
+  color: #3b7ce3;
+}
+#zalozkonto:visited 
+{
+	color: red;
+	font-size: 18px;
+	color: #68a1fc;
+	background-color: red;
+}
+#upperbar
+{
+	border-bottom: 7px groove #BABABA;
+	background-color: #191817;
+
+	width: 100%;
+	height: 10vh;
+}
+.rectangle
+{
+	font-family: "Verdana", Helvetica, sans-serif;
+	font-style: normal;
+	color: #80BFFF;
+	text-align: left;	
+	line-height: 10vh; 
+	float: right;
+	font-size: 1.5vw;
+	font-family: Verdana;
+	width: 22vw;
+	height: 10vh;
+	border-left: 16px solid #302f2d;
+	border-radius: 0px 0px 0px 40px;
+	background-color: #302f2d;
+}
+.ikonka
+{
+	text-decoration: none;
+	margin-top: auto;
+}
+.ikonka:link
+{
+	color: #80BFFF;
+}
+.ikonka:hover
+{
+	color: #369aff !important;
+}
+.ikonka:visited
+{
+	color: #80BFFF;
+}
+
+
